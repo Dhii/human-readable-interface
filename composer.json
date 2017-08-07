@@ -21,6 +21,9 @@
         "codeclimate/php-test-reporter": "<=0.3.2",
         "dhii/stringable-interface": "^0.1.0"
     },
+    "suggest": {
+        "dhii/i18n-interface": "For internationalizing and translating human readable strings."
+    },
     "autoload": {
         "psr-4": {
             "Dhii\\Util\\String\\": "src"
