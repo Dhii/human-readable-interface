@@ -12,7 +12,7 @@ interface CaptionAwareInterface
     /**
      * Retrieves the caption related to this instance.
      *
-     * A message is a human-readable string that provides a brief description for some element.
+     * A caption is a human-readable string that provides a brief description for some element.
      * It typically accompanies some illustration or screen fragment.
      *
      * @since [*next-version*]
