@@ -2,10 +2,10 @@
 
 namespace Dhii\Util\String;
 
+use Stringable;
+
 /**
  * Something that is aware of a description.
- *
- * @since [*next-version*]
  */
 interface DescriptionAwareInterface
 {
@@ -15,9 +15,7 @@ interface DescriptionAwareInterface
      * A description is a human readable string that provides verbose explanation, additional information,
      * instructions, and/or context.
      *
-     * @since [*next-version*]
-     *
-     * @return string|StringableInterface
+     * @return string|Stringable
      */
     public function getDescription();
 }
