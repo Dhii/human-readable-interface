@@ -21,7 +21,8 @@
         "symfony/polyfill-php80": "^1.19"
     },
     "suggest": {
-        "dhii/i18n-interface": "For internationalizing and translating human readable strings."
+        "dhii/i18n-interface": "For internationalizing and translating human readable strings.",
+        "symfony/polyfill-php80": "To add Stringable interface"
     },
     "autoload": {
         "psr-4": {
