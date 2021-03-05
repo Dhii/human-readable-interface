@@ -28,3 +28,8 @@ human-readable strings. Then perhaps base rendering logic on them.
 [`LabelAwareInterface`]: src/LabelAwareInterface.php
 [`MessageAwareInterface`]: src/MessageAwareInterface.php
 [`TitleAwareInterface`]: src/TitleAwareInterface.php
+
+## Development
+This project ships with Docker and PHPStorm configurations. Just
+copy `.env.example` to `.env`, tweak if necessary, then use
+`docker-compose` to run various tools, or use PHPStorm integrations.
