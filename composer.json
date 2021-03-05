@@ -30,7 +30,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dhii\\Util\\String\\FuncTest": "tests/functional"
+            "Dhii\\Util\\String\\FuncTest\\": "tests/functional"
         }
     },
     "scripts": {
