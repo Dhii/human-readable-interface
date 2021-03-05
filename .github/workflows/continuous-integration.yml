@@ -22,7 +22,7 @@ jobs:
       run: composer validate
 
     - name: Install dependencies
-      run: composer update --prefer-dist --no-progress --suggest
+      run: composer update --prefer-dist --no-progress
 
     - name: PhpUnit
       run: ./vendor/bin/phpunit
