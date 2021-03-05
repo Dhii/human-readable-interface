@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Dhii\Util\String;
+
+use Stringable;
 
 /**
  * Something that is aware of a label.
- *
- * @since [*next-version*]
  */
 interface LabelAwareInterface
 {
@@ -14,9 +16,7 @@ interface LabelAwareInterface
      *
      * A label is a relatively short human readable string that can be used to identify or refer to this instance.
      *
-     * @since [*next-version*]
-     *
-     * @return string|StringableInterface
+     * @return string|Stringable
      */
     public function getLabel();
 }

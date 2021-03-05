@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Dhii\Util\String;
+
+use Stringable;
 
 /**
  * Something that is aware of a title.
- *
- * @since [*next-version*]
  */
 interface TitleAwareInterface
 {
@@ -14,9 +16,7 @@ interface TitleAwareInterface
      *
      * A title is a human-readable string that serves as a heading for some content.
      *
-     * @since [*next-version*]
-     *
-     * @return string|StringableInterface
+     * @return string|Stringable
      */
     public function getTitle();
 }

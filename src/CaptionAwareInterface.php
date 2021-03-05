@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Dhii\Util\String;
+
+use Stringable;
 
 /**
  * Something that is aware of a caption.
- *
- * @since [*next-version*]
  */
 interface CaptionAwareInterface
 {
@@ -15,9 +17,7 @@ interface CaptionAwareInterface
      * A caption is a human-readable string that provides a brief description for some element.
      * It typically accompanies some illustration or screen fragment.
      *
-     * @since [*next-version*]
-     *
-     * @return string|StringableInterface
+     * @return string|Stringable
      */
     public function getCaption();
 }
